@@ -1,0 +1,6 @@
+Commands
+install go validator :  go get github.com/go-playground/validator/v10
+install gorilla mux :  go get -u github.com/gorilla/mux
+install go swagger : go get -u github.com/go-swagger/go-swagger/cmd/swagger
+generate swagger documentation : swagger generate spec -o ./swagger.yaml --scan-models
+install redocs for serving our swagger docs : go install github.com/go-openapi/runtime/middleware
