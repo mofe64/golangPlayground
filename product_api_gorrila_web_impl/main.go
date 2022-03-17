@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/gorilla/mux"
 	"github.com/nicholasjackson/env"
-	"golangstuff/gorrila_web_impl/handlers"
+	"golangstuff/product_api_gorrila_web_impl/handlers"
 
 	"log"
 	"net/http"

@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"golangstuff/go_standard_lib_api/data"
+	"golangstuff/product_api_go_standard_lib_api/data"
 	"log"
 	"net/http"
 	"regexp"
@@ -39,13 +39,13 @@ func (p *Products) ServeHTTP(rw http.ResponseWriter, r *http.Request) {
 		g := reg.FindAllStringSubmatch(r.URL.Path, -1)
 
 		if len(g) != 1 {
-			p.l.Println("Invalid URI more than go_standard_lib_api id")
+			p.l.Println("Invalid URI more than product_api_go_standard_lib_api id")
 			http.Error(rw, "Invalid URI", http.StatusBadRequest)
 			return
 		}
 
 		if len(g[0]) != 2 {
-			p.l.Println("Invalid URI more than go_standard_lib_api capture group")
+			p.l.Println("Invalid URI more than product_api_go_standard_lib_api capture group")
 			http.Error(rw, "Invalid URI", http.StatusBadRequest)
 			return
 		}

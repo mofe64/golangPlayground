@@ -3,7 +3,7 @@ package handlers
 import (
 	"context"
 	"github.com/gorilla/mux"
-	"golangstuff/gorrila_web_impl/data"
+	"golangstuff/product_api_gorrila_web_impl/data"
 	"log"
 	"net/http"
 	"strconv"

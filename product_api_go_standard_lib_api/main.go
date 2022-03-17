@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 	"github.com/nicholasjackson/env"
-	"golangstuff/go_standard_lib_api/handlers"
+	"golangstuff/product_api_go_standard_lib_api/handlers"
 	"log"
 	"net/http"
 	"os"
